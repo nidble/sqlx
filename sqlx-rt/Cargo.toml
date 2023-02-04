@@ -41,6 +41,6 @@ native-tls = { version = "0.2.4", optional = true }
 once_cell = { version = "1.4", features = ["std"], optional = true }
 
 [dependencies.tokio]
-version = "1.0.1"
+version = "1.16.1"
 features = ["fs", "net", "rt", "rt-multi-thread", "time", "io-util"]
 optional = true
